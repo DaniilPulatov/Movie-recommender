@@ -1,0 +1,25 @@
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+
+# Database
+python -m ml.build_movie_embeddings
+psycopg[binary]==3.2.1
+alembic==1.13.2
+pgvector==0.3.6
+
+# Data validation
+pydantic==2.8.2
+pydantic-settings==2.4.0
+
+# HTTP client (Ollama API)
+httpx==0.27.0
+requests==2.33.1
+
+# Data / ML utilities
+numpy==2.0.1
+pandas==2.2.2
+scikit-learn==1.5.1
+
+# Dev / utils
+python-dotenv==1.0.1
+tqdm==4.66.5
